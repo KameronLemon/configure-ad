@@ -26,10 +26,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Setup Remote Desktop for non adminstrative users on the client machine
 - Create additional users and test login features with one of the users
 
-<h2>Deployment and Configuration Steps</h2>
-
-<p>
-![image](https://github.com/user-attachments/assets/c8b9b176-2b66-4cc7-9b0d-9cf9dec16259)
+![image](https://github.com/user-attachments/assets/36441046-625c-421b-907c-27cff29dc5d6)
 
 </p>
 <p>
