@@ -89,6 +89,42 @@ From the client machine within windows powershell ping the the administrative ma
 </p>
 <br />
 
+![Capture](https://github.com/user-attachments/assets/252d1c87-b1f8-475a-853d-ecf4d46a31aa)
+![Captur2e](https://github.com/user-attachments/assets/3ae6399d-b52d-45ce-915f-bbb4ad3f08b5)
+
+![Capture3](https://github.com/user-attachments/assets/cd2d6a50-8748-4685-aa62-f308674b4c73)
+
+</p>
+<p>Within active directory users and computers, create two orginizational unites. One labled "_EMPLOYEES" and one called "_ADMINS"
+</p>
+<br />
+
+![Capture12](https://github.com/user-attachments/assets/599372fa-e515-4df4-aee9-5a3f7f02f959)
+
+![Capture](https://github.com/user-attachments/assets/8eee6619-2464-4be1-926d-c2ff13916db1)
+
+![Capture4](https://github.com/user-attachments/assets/a4e99a1c-66bb-4ea2-8bcd-c954c6a58f2d)
+
+![Capture6](https://github.com/user-attachments/assets/83921f47-9c4e-4cb4-8de4-97a2798e43cf)
+
+</p>
+<p>Create a brand new employee named “Jane Doe” (same password) with the username of “jane_admin” / Cyberlab123!". Then Add jane_admin to the “Domain Admins” Security Group. 
+  After that disconnect from your administrative machine and log back in as “mydomain.com\jane_admin”. (Use the user jane_admin as your admin account from now on)
+</p>
+<br />
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
