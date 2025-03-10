@@ -64,6 +64,35 @@ From the client machine within windows powershell ping the the administrative ma
 </p>
 <br />
 
+![installactdomantoserver](https://github.com/user-attachments/assets/238994aa-16e2-4b20-950a-ebabd920c776)
+![Capture](https://github.com/user-attachments/assets/5c45e0b7-0180-48c0-b923-8f858a90e477)
+![3](https://github.com/user-attachments/assets/fbc642c5-c965-410f-998d-a9b60b1c3ed2)
+
+</p>
+<p>From the server manager application within the administrative machine install active directory domain services and allow all needed features to be installed
+</p>
+<br />
+
+![promo to domain controller](https://github.com/user-attachments/assets/86a3d950-47d0-4fcc-b931-ee8dc9cb46fc)
+
+</p>
+<p>After installation completion promote server to a domain controller
+</p>
+<br />
+
+![addnewforest](https://github.com/user-attachments/assets/75a592db-0e8a-47eb-86ca-f8f2d71887b1)
+![Capture](https://github.com/user-attachments/assets/2dc8ce31-9277-465c-8f70-df3530717f2c)
+![Cap2ture](https://github.com/user-attachments/assets/5ab33e1f-533c-49e9-8b21-59188f53ded8)
+
+</p>
+<p>After prompting to promote your server to a domain controller setup a new forest (for this lab it will be labled as mydomain.com) your computer will restart and you need to login with the credentials you created
+</p>
+<br />
+
+
+
+
+
 
 
 
