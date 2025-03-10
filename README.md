@@ -113,6 +113,47 @@ From the client machine within windows powershell ping the the administrative ma
 </p>
 <br />
 
+![Captur2e](https://github.com/user-attachments/assets/918e8212-d267-48d9-a7c0-fa8b0c079466)
+
+![Capture3](https://github.com/user-attachments/assets/02fad1ca-6d6a-4f6d-a376-4ad0b90ea784)
+
+![Captur7e](https://github.com/user-attachments/assets/0729d15b-7e63-438e-8596-8657c929c2ee)
+
+login into your client machine as your local admin. Then join it to your domain controllor from your sytem properties.
+
+![Capture5](https://github.com/user-attachments/assets/d4430091-5c47-4c01-ba7f-ed2dd50dfcee)
+
+Verify client machine appears in active directory users and computers.
+
+![Capture2](https://github.com/user-attachments/assets/6ea1e30c-1a8f-488f-adca-b4a0a905fc7f)
+![Capture3](https://github.com/user-attachments/assets/a88b4991-ef22-4367-bd57-da3b45e71143)
+
+login to the client machine as Jane_admin and allow domain users to access remote desktop.
+
+![Capturescript](https://github.com/user-attachments/assets/97accfba-9512-462d-a237-5983aa2aaa03)
+![Capture4](https://github.com/user-attachments/assets/3807131e-380b-4e98-b231-a117e0fa7027)
+![Captudjre](https://github.com/user-attachments/assets/66623cab-a16f-41b0-9733-ff563c0e90d6)
+![Captureredux](https://github.com/user-attachments/assets/191fad95-017b-4395-b7bc-d181d22e877c)
+
+Create new users within "_EMPLOYEES". (I'm utilizing a script within windows powershell that creates 10,000 new users however this is not neccesary) just create a few new ones within active directory and computers. Check the "_EMPLOYESS" orginizational unit to ensure users are created. Select a random user and attempt login with the user credentials. 
+
+![log it](https://github.com/user-attachments/assets/478b2dfe-562b-4773-9841-54929991e102)
+
+Congratulations you've succesfully deployed Active Directory within Azure Virtual Machines! If you need any help feel free to connect and reach out to me via LinkedIn.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
