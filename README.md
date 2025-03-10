@@ -34,18 +34,37 @@ Create two virtual (Admin center should run windows server 2022 datacenter and c
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+
+![image](https://github.com/user-attachments/assets/47364a59-af52-4164-9660-52752e183ef3)
+
+From the adminstrative machine disable the windows firewall to allow connectivity testing between the two machines.
 </p>
 <br />
 
-<p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+![image](https://github.com/user-attachments/assets/7a69d268-9bb5-489e-bd64-63024078b427)
+
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Back within azure join the client user to the admins domain by changing the client machines dns settings to the admins private ip address
 </p>
 <br />
+
+![image](https://github.com/user-attachments/assets/b18f40cb-8904-4f2b-b796-52b8b1d2c584)
+
+</p>
+<p>
+From the client machine within windows powershell ping the the administrative machines private ip address to ensure connectivity
+</p>
+<br />
+
+![image](https://github.com/user-attachments/assets/f288bd53-3407-4985-b2e4-693715ab2808)
+
+</p>
+<p>Also within windows powershell run ipconfig /all to ensure the administrative machines private ip address is listed
+</p>
+<br />
+
+
+
+
+
